@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for ZC_USER_MASTER_JXU'
+define service ZUI_USER_MASTER_JXU {
+  expose zc_user_master_jxu;
+}

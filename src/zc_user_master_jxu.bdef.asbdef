@@ -1,0 +1,6 @@
+projection;
+strict ( 1 );
+
+define behavior for zc_user_master_jxu alias user_master
+{
+}

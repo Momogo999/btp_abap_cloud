@@ -1,0 +1,18 @@
+managed implementation in class zbp_i_user_master_jxu unique;
+strict ( 1 );
+
+define behavior for zi_user_master_jxu alias root_user_master
+persistent table zuser_master_jxu
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  mapping for ZUSER_MASTER_JXU
+  {
+    userid = Userid;
+    first_name = First_name;
+    last_name = Last_name;
+    address = Address;
+    tele_num = Tele_num;
+  }
+}

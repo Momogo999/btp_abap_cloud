@@ -1,0 +1,20 @@
+@Metadata.layer:#CUSTOMER
+annotate view zc_user_master_jxu
+    with 
+{
+  @UI.identification: [{ position:1, label: 'User ID' }]
+  @UI.lineItem: [{ position:1, label: 'User ID' }]
+  Userid;
+  @UI.identification: [{ position:2, label: 'First name' }]
+  @UI.lineItem: [{ position:2, label: 'First name' }]
+  First_name;
+  @UI.identification: [{ position:3, label: 'Last name' }]
+  @UI.lineItem: [{ position:3, label: 'Last name' }]
+  Last_name;
+  @UI.identification: [{ position:4, label: 'Address' }]
+  @UI.lineItem: [{ position:4, label: 'Address' }]
+  Address;
+  @UI.identification: [{ position:5, label: 'Telephone number' }]
+  @UI.lineItem: [{ position:5, label: 'Telephone number' }]
+  Tele_num;
+}
